@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position</title>
+    <style>
+        div#parent {
+            width: 600px;
+            height: 600px;
+            border: #000 solid 4px;
+            position: relative;
+            margin: auto;
+            text-align: center;
+            line-height: 600px;
+            font-weight: bold;
+            font-size: 32px;
+        }
+        div#child1 {
+            width: 150px;
+            height:140px;
+            background-color: orange;
+            position: absolute;
+            left: 0;
+            top: 0;
+            line-height: 140px;
+            font-size: 18px;
+            padding-top: 10px;
+        }
+        div#child2 {
+            width: 150px;
+            height:140px;
+            background-color: greenyellow;
+            position: absolute;
+            right: 0;
+            top: 0;
+            line-height: 140px;
+            font-size: 18px;
+            padding-top: 10px;
+        }
+        div#child3 {
+            width: 150px;
+            height:140px;
+            background-color: darkkhaki;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            line-height: 140px;
+            font-size: 18px;
+            padding-top: 10px;
+        }
+        div#child4 {
+            width: 150px;
+            height:140px;
+            background-color: steelblue;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            line-height: 140px;
+            font-size: 18px;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <img src="./img/parent.png" width="100"/>Parent
+        <div id="child1">
+            <img src="./img/child3.png" width="60"/>
+            Child1
+        </div>
+        <div id="child2">
+            <img src="./img/child3.png" width="60"/>
+            Child2
+        </div>
+        <div id="child3">
+            <img src="./img/child3.png" width="60"/>Child3
+        </div>
+        <div id="child4">
+            <img src="./img/child3.png" width="60"/>
+            Child4
+        </div>
+    </div>
+</body>
+</html>
